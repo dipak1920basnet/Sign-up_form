@@ -1,0 +1,72 @@
+.main
+{
+    height: 98vh;
+    width: 100vw;
+    border: 2px solid red;
+    display: flex;
+}
+
+.left
+{
+    background-image: url(../Image_folder/back.png) ;
+    /*control background image*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid green;
+    height: 98vh;
+    width: 40vw;
+    position: relative;
+}
+.right
+{
+    border: 1px solid blue;
+    height: 98vh;
+    width: 50vw;
+}
+
+.top_container
+{
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    padding: 2%;
+    /* height: 30px; */
+    position: relative;
+    top: 20%;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+
+
+}
+.odin_image
+{
+    height: 200px;
+}
+
+
+@font-face {
+    font-family: 'NorseBold';
+    src: url('fonts/Norse-Bold.woff2') format('woff2'),
+        url('fonts/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    }
+
+.image_heading
+{
+    color: white;
+    font-size:8lvh;
+    font-family: 'UnifrakturCook', cursive;
+}
+
+.bottom_container
+{
+    display: flex;
+    position: relative;
+    top: 69%;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+}
