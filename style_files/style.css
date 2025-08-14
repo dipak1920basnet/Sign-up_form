@@ -2,7 +2,7 @@
 {
     height: 98vh;
     width: 100vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
 }
 
@@ -20,9 +20,11 @@
 }
 .right
 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 98vh;
     width: 50vw;
+    /* margin-left: 1%; */
+    background-color:rgb(230, 227, 227);
 }
 
 .top_container
@@ -69,4 +71,66 @@
     color: whitesmoke;
     align-items: center;
     justify-content: center;
+}
+
+.top,
+.middle,
+.bottom{
+    height: 32vh;
+    /* margin-top:4px ; */
+    /* border: 1px solid blue; */
+    box-shadow: 0cqw;
+    width: 57vw;
+    padding-left: 7%;
+    
+}
+.top
+{
+    position: relative;
+}
+.top > .content{
+    position: absolute;
+    top: 30%;
+    /* margin-left: 7%; */
+    font-size: larger;
+    font-weight: bold;
+    
+}
+.middle
+{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: white;
+    /* margin-top: 3%; */
+}
+.middle > form >section
+{
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.middle > form >section > div
+{
+    margin-right: 7%;
+}
+
+.middle > form >section > div > input
+{
+    margin-top: 7%;
+    width: 130%;
+    margin-right: 6%;
+}
+.input_field
+{
+    display: flex;
+    flex-direction: column;
+}
+.bottom > button{
+    margin-top: 2%;
+    border-radius: 13px;
+}
+.bottom > p > a
+{
+    color: chartreuse;
+    text-decoration: none;
 }
